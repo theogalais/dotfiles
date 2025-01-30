@@ -1,79 +1,104 @@
 {
-    "editor.detectIndentation": false,
-    "editor.formatOnPaste": true,
-    "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.rulers":
-    [
-        80,
-        120
-    ],
-    "editor.renderControlCharacters": true,
-    "editor.snippetSuggestions": "top",
-    "editor.trimAutoWhitespace": true,
-    "editor.useTabStops": true,
-    "editor.fontSize": 17,
-    "editor.scrollBeyondLastLine": true,
-    "editor.showFoldingControls": "always",
-    "emmet.includeLanguages":
-    {
-        "erb": "html"
-    },
-    "emmet.triggerExpansionOnTab": true,
-    "explorer.confirmDelete": false,
-    "window.restoreWindows": "none",
-    "workbench.settings.editor": "json",
-    "workbench.settings.openDefaultSettings": true,
-    "workbench.settings.useSplitJSON": true,
-    "workbench.iconTheme": "vscode-great-icons",
-    "files.hotExit": "off",
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "files.exclude":
-    {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "node_modules": true,
-        "tmp": true,
-        "log": true,
-        ".asset-cache": true,
-        ".bundle": true,
-        ".ipynb_checkpoints": true,
-        ".pytest_cache": true,
-        ".sass-cache": true,
-        ".svn": true,
-        "__pycache__": true,
-        "_site": true,
-        "build": true,
-        "coverage": true,
-        "dist": true,
-        "public/packs": true,
-        "**/.egg-info": true
-    },
-    "files.watcherExclude":
-    {
-        "**/audits/**": true,
-        "**/coverage/**": true,
-        "**/log/**": true,
-        "**/node_modules/**": true,
-        "**/tmp/**": true,
-        "**/vendor/**": true
-    },
-    "git.enabled": false,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "[python]":
-    {
-        "editor.tabSize": 4
-    },
-    "python.pythonPath": "~/.pyenv/shims/python",
-    "python.formatting.provider": "yapf",
-    "ruby.lint":
-    {
-        "rubocop": true
-    },
-    "workbench.startupEditor": "newUntitledFile"
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.maxTokenizationLineLength": 1000,
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "editor.accessibilitySupport": "off",
+  "editor.fontSize": 17,
+  "editor.formatOnPaste": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderControlCharacters": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.scrollBeyondLastLine": true,
+  "editor.showFoldingControls": "always",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.useTabStops": true,
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.egg-info": true,
+    "**/.git": true,
+    ".asset-cache": true,
+    ".bundle": true,
+    ".ipynb_checkpoints": true,
+    ".pytest_cache": true,
+    ".sass-cache": true,
+    ".svn": true,
+    "__pycache__": true,
+    "_site": true,
+    "build": true,
+    "coverage": true,
+    "dist": true,
+    "log": true,
+    "node_modules": true,
+    "public/packs": true,
+    "tmp": true
+  },
+  "files.hotExit": "off",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/audits/**": true,
+    "**/coverage/**": true,
+    "**/log/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/vendor/**": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "python.formatting.provider": "yapf",
+  "python.pythonPath": "~/.pyenv/shims/python",
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "window.restoreWindows": "none",
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.enableSmartCommit": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.associations": {
+    "*.php": "php"
+  },
+  "html.format.extraLiners": "",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "settingsSync.ignoredExtensions": [
+    "ms-python.debugpy"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "diffEditor.codeLens": true
 }
